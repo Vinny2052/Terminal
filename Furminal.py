@@ -18,12 +18,12 @@ GREEN = "\033[32m"
 YELLOW = "\033[33m"
 BLUE = "\033[34m"
 RESET = "\033[0m"
-furminal = f"{RED}{username}{BLUE}os.getcwd(){RESET}:3 "
 print(f"{BLUE}Starting Furminal v0.1")
 while True:
   import os
   import sys
-
+  curdir1 = os.getcwd()
+  furminal = f"{RED}{username}{BLUE}{curdir1}{RESET}:3 "
   command = input(furminal)
   com = command[:3]
   
