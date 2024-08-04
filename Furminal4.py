@@ -3,19 +3,20 @@ from pathlib import Path
 from LineNumber1 import get_line
 
 line_number = 2
-Username = get_line('d.data', line_number)
+Username = get_line('deondree.data', line_number)
 if Username:
     print(f"{Username}")
     username = Username[10:]
 
 line_number = 1
-Base2 = get_line('d.data', line_number)
-if Base2:
-    print(f"{Base2}")
-    base2 = Base2[10:]
+B1 = get_line('deondree.data', line_number)
+if B1:
+    print(f"{B1}")
+    base2 = B1[10:]
+    print(f"{base2}")
 
 base = base2
-os.chdir(base)
+os.chdir(base2)
 print("Home directory:", base)
 user = os.getlogin()
 print(f"Logged in as {user}")
@@ -47,3 +48,4 @@ while True:
     dir = os.getcwd()
     print(dir)
   os.system(command)
+
