@@ -14,7 +14,7 @@ if Base2:
     print(f"{base2}")
     base2 = Base2[10:]
 
-base = base2
+base = Base2
 print("Home directory:", base)
 user = os.getlogin()
 print(f"Logged in as {user}")
