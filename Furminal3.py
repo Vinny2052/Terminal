@@ -15,6 +15,7 @@ if Base2:
     base2 = Base2[10:]
 
 base = base2
+os.chdir(base)
 print("Home directory:", base)
 user = os.getlogin()
 print(f"Logged in as {user}")
