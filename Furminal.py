@@ -18,7 +18,7 @@ GREEN = "\033[32m"
 YELLOW = "\033[33m"
 BLUE = "\033[34m"
 RESET = "\033[0m"
-furminal = f"{RED}{username}{BLUE}~{RESET}:3 "
+furminal = f"{RED}{username}{BLUE}os.getcwd(){RESET}:3 "
 print(f"{BLUE}Starting Furminal v0.1")
 while True:
   import os
