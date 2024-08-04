@@ -11,10 +11,10 @@ if Username:
 line_number = 1
 Base2 = get_line('d.data', line_number)
 if Base2:
-    print(f"{base2}")
+    print(f"{Base2}")
     base2 = Base2[10:]
 
-base = Base2
+base = base2
 print("Home directory:", base)
 user = os.getlogin()
 print(f"Logged in as {user}")
